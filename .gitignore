@@ -1,21 +1,12 @@
+# Node build artifacts
+node_modules
+npm-debug.log
 
+# Local development
+*.env
+*.dev
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-._*
-/\.
 
-/node_modules/
-/bower_components/
-*.log
-
-build/
-tmp/
-
-
-
+# Docker
+Dockerfile
+docker-compose.yml
